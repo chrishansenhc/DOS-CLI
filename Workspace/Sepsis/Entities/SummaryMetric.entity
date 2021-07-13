@@ -1,0 +1,68 @@
+schemaVersion: 0.1
+schemaType: Entity
+name: SummaryMetric
+tableName: 
+schemaName: 
+databaseName: 
+contentId: 034b77dd-e4cf-425a-bafd-e767c59c0c5b
+businessDescription: 
+technicalDescription: 
+dataStore: 
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+- schemaVersion: 0.1
+  schemaType: Field
+  name: BindingID
+  contentId: bce03051-9c73-4fdf-a4cc-6f536f581fdc
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: int
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- schemaVersion: 0.1
+  schemaType: Field
+  name: BindingNM
+  contentId: 79117a11-12ae-4a54-bb5e-2e6eca09c571
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: string
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- schemaVersion: 0.1
+  schemaType: Field
+  name: LastLoadDTS
+  contentId: 9983c91f-e947-4d10-b085-653195dcd8af
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: datetime
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []

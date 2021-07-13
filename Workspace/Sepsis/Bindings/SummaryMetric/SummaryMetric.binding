@@ -1,15 +1,15 @@
 schemaVersion: 0.1
-destinationEntity: SepsisPopulation.entity
+destinationEntity:
   destinationName: 
   destinationType: local
 schemaType: Binding
-name: SepsisPopulation
+name: SummaryMetric
 description: 
-contentId: b110be0d-da6c-4267-be54-d8cf77cadb9f
+contentId: bff62fae-43ba-4cbb-822a-683c4cbb1e76
 sourceDataStore: 
 type: SQL
 status: In Development
 loadType: Full
-script: !script SepsisPopulation.sql
+script: !script SummaryMetric.sql
 objectRelationships: []
 attributeValues: []
