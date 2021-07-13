@@ -1,0 +1,68 @@
+schemaVersion: 0.1
+schemaType: Entity
+name: SepsisRule
+tableName: 
+schemaName: 
+databaseName: 
+contentId: 4614180a-d403-41b5-966f-82e73f030544
+businessDescription: 
+technicalDescription: 
+dataStore: 
+persistenceType: table
+isGlobalRead: false
+isGlobalWrite: false
+fields:
+- schemaVersion: 0.1
+  schemaType: Field
+  name: BindingID
+  contentId: d4ddc8d4-9374-4bec-9728-b30485e9a90e
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: int
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- schemaVersion: 0.1
+  schemaType: Field
+  name: BindingNM
+  contentId: f814819a-a2a7-49b1-ad47-6ef89ae51b01
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: string
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+- schemaVersion: 0.1
+  schemaType: Field
+  name: LastLoadDTS
+  contentId: a9638792-35af-43e2-997d-f83391194d2c
+  businessDescription: This column is automatically populated by the engine and should not be part of the binding query.
+  technicalDescription: 
+  status: 
+  dataType: datetime
+  dataSensitivity: None
+  ordinal: 
+  isNullable: false
+  isAutoIncrement: false
+  defaultValue: 
+  excludeFromBaseView: false
+  isSystemField: true
+  objectRelationships: []
+  attributeValues: []
+indexes: []
+objectRelationships: []
+attributeValues: []
